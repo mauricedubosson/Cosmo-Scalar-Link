@@ -44,6 +44,15 @@ The following values were inferred by the symbolic engine through a best-fit ana
 1. **Clone the repo**: `git clone https://github.com[ID]/Cosmo-Scalar-Link.git`
 2. **Install dependencies**: `pip install -r requirements.txt`
 3. **Run Discovery**: `python cosmo_scalar_discovery.py`
+   ## 📚 Theoretical Foundation
+This project is based on the theoretical framework developed by **Maurice Dubosson**. 
+You can find the full white paper in the repository:
+👉 [Read the Theory PDF](./theory/A_Timeless_Scalar_Field_Dubosson.pdf)
+
+Key concepts integrated into the AI discovery engine:
+- **Atimeless Scalar Fields** ($l < l_P$)
+- **Spontaneous Symmetry Breaking** (GUT Scale)
+- **Quantum-Relativity Unification** via the $\alpha_D$ constant.
 
 ## ⚖️ License
 This project is licensed under the **MIT License**.
