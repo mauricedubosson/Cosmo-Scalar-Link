@@ -60,4 +60,23 @@ CDM, reconciling the
 ⚖️ License & Citation
 Licensed under the MIT License.
 If you use this framework for your research, please cite the Maurice Dubosson theoretical paper (p. 1) and this repository.
+markdown
+## ⚛️ Theoretical Foundation
 
+The core of the engine relies on the **Wheeler-DeWitt** state of "Pure Energy", where the scalar field $\phi$ interacts with an auxiliary field $\sigma$ (dilaton) as described in the Maurice Dubosson framework:
+
+$$
+\left( - \frac{\hbar^2}{2} \frac{\partial^2}{\partial \phi^2} - \frac{\hbar^2}{2} \frac{\partial^2}{\partial \sigma^2} + V(\phi) + V(\sigma) + \frac{g}{M_P} \phi^2 \sigma^2 \right) \Psi(\phi, \sigma) = 0
+$$
+
+The version **v17.1** implements the predicted **exponential cutoff** at low multipoles and large scales to resolve the $S_8$ tension:
+
+$$
+T(k)_{Dubosson} = T(k)_{BBKS} \cdot \exp(-D_{drag} \cdot k^{1.1})
+$$
+
+This term simulates the resistance of the scalar field to gravitational collapse, effectively "smoothing" the distribution of Dark Matter on megaparsec scales. The inferred scalar mass is derived from the Higgs-Planck coupling:
+
+$$
+m_\phi = \sqrt{\frac{\Gamma - \Gamma_{LCDM}}{H_0}} \cdot \frac{M_{Higgs}^2}{M_{Planck}}
+$$
