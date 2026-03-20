@@ -1,3 +1,6 @@
+<img width="1000" height="451" alt="image" src="https://github.com/user-attachments/assets/cedd87fa-ca22-4007-ad45-f8c18b928e60" />
+
+ 
  markdown
 # 🌌 Cosmo-Scalar-Link v3.2 (Unified Engine)
 ### Resolving the $S_8$ Tension via Higgs-Inflaton Drag & Eternal Field Resonance
