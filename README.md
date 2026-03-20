@@ -9,7 +9,7 @@
 [![arXiv-ready](https://img.shields.io/badge/arXiv-ready-orange)](https://arxiv.org)
 
 ### Overview
-This repository implements a physically rigorous version of the **Higgs-Inflaton Drag** model (inspired by Maurice Dubosson’s original work).  
+This repository implements a physically rigorous version of the **Higgs-Inflaton Drag** model.  
 Using a hybrid **pyCCL + ODE** solver and parallel MCMC, the model reduces the S₈ tension to **0.41σ** while remaining fully consistent with BAO, fσ₈, H₀, and neutrino constraints.
 
 **Key results (2026 data)**
